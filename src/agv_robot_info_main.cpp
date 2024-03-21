@@ -7,7 +7,7 @@ int main(int argc, char** argv) {
     ROS_INFO("Node is online and running...");
 
     // Create an instance of AGVRobotInfo objenct with all required information
-    AGVRobotInfo agvRobotInfo("Blue_42", "B-17242", "181.214.151.129", "3.1.4", "100 Kg" );
+    AGVRobotInfo agvRobotInfo("Blue_42", "B-17242", "181.214.151.129", "3.1.4", "100 Kg", "30 C", "58 %", "250 bar");
 
     ros::Rate loop_rate(10); // 10 Hz
     while (ros::ok()) {
