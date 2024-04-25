@@ -1,1 +1,9 @@
-# robot_info_node
+# Robot Info Node 
+
+### Description:
+* This is a simple node for detecting information.
+
+
+### Author:
+
+* Martin Etbon
